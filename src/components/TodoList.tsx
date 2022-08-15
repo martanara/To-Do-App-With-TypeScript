@@ -9,7 +9,7 @@ const TodoList: React.FC<TodoListProps> = (props) => {
     {props.items.map((todo) => (
       <li key={todo.id}>{todo.text}</li>
     ))}
-  </ul>
-}
+  </ul>;
+};
 
 export default TodoList;
